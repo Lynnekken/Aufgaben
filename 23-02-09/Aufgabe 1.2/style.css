@@ -1,0 +1,15 @@
+h2:hover {
+    text-decoration: underline;
+}
+.picture {
+    width: 200px;
+    height: auto;
+    border: 5px dashed blue;
+}
+.picture:hover {
+    scale: 1.2;
+    background-color:blueviolet;
+}
+.text:hover::first-letter {
+    font-size: bigger;
+}

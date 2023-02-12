@@ -1,0 +1,46 @@
+:root {
+    --header-start-color: #6200ee;
+    --header-end-color: #c011ff;
+element {
+    background-color: var(--main-bg-color)
+    }
+
+.heading {
+    color: blueviolet
+}
+.H {
+    color: red
+}
+.ello {
+    color: blue
+}
+.W {
+    color: yellowgreen
+}
+.orld {
+    color: blue
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to right, var(--header-start-color), var(--header-end-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+p::first-line {
+    color: blue;
+}
+p::selection {
+    background-color: red;
+}
+p::first-letter {
+    font-size: bigger;
+}
+p:hover::after {
+    content:'';
+display: block;
+height: 10px;
+background-color: red;
+}

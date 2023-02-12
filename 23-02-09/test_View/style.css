@@ -1,0 +1,26 @@
+
+body {
+    margin: 0px;
+    height: 150vh;
+}
+
+.container {
+    position: sticky;
+    top: 2vh;
+    overflow-y: scroll
+    height: 10vh
+    width: 100vh;
+    background-color: blueviolet;
+}
+
+.text {
+    top: 2vh;
+    overflow-y: scroll
+    height: 200px
+    width: 200px;
+    background-color: blueviolet;
+}
+
+p {
+    font-size: 16px;
+}
