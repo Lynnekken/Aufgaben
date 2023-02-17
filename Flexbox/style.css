@@ -1,0 +1,17 @@
+.app {
+    width: 50vw;
+    height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid, black, 3px;
+    gap: 3px;
+    background-color: aquamarine;
+}
+
+.img {
+    width: 20vw;
+    height: auto;
+}

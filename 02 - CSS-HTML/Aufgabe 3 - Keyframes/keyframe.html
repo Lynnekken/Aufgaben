@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  position: relative;
+  animation: mymove 4s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+    left: 0px;
+    opacity: 0.25;
+  }
+  25% {top: 0px; left: 200px;}
+  50% {top: 200px; left: 200px;}
+  75% {top: 200px; left: 0px;}
+  100% {top: 0px; left: 0px;} 
+}
+ 
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<h1>@keyframes Regeln</h1>
+
+<div></div>
+
+</body>
+</html>
