@@ -17,7 +17,7 @@
     text-align: center;  
     font-weight: 800;
     width: 150px;
-    height: 150px;
+    min-height: 150px;
     background-color: aquamarine;
     border-radius: 10%;
     align-items: center;
@@ -27,8 +27,23 @@
     cursor: pointer;   
 }
 .parent div:nth-of-type(odd){
-    background-color: fuchsia;
+    background-color: fuchsia;  
+}
+.parent div:nth-child(even){
+    flex-grow: 2;
+    order: 2;
 }
 .parent div:hover {
     transform: scale(2) rotate(180deg);
+}
+.parent div:hover::after {
+    content: ":)";
+    font-size: 4em;
+}
+.parent div:hover span {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    
 }

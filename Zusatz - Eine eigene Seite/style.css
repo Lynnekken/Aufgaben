@@ -1,0 +1,44 @@
+.container {
+    height: 150vh;
+    background-color: #E9C46A;
+    display: grid;
+    
+}
+.container-fluid {
+    background-color: #2A9D8F;
+    position: sticky;
+    top: 0; 
+}
+.navigation {
+    height: 100px;
+    background-color: #2A9D8F;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 40px;
+    background-color: #2A9D8F; 
+}
+.nav-link {
+    color: white;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-nav {
+   
+}
+.card-group {
+    gap: 5px;
+    height: fit-content;
+    position: relative;
+}
+.footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+  
+    
+}
+
